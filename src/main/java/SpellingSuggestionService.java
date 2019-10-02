@@ -43,7 +43,7 @@ public class SpellingSuggestionService {
 
     public static void main(String[] args) {
 
-        var word = (args.length != 0) ? args[0] : "suggeston";
+        var word = (args.length != 0) ? args[0] : "ramen";
 
         try {
             var dict = populateDict("src/main/resources/dict.txt");
