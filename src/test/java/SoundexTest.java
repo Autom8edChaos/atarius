@@ -6,7 +6,7 @@ public class SoundexTest {
 
     @Test
     public void firstCharacterIsRetained() {
-        String testString = "Bubbles";
+        var testString = "Bubbles";
         String result = Soundex.soundex(testString);
         assertEquals("B", result.substring(0,1));
     }
